@@ -37,12 +37,10 @@ function Header() {
                 <Logo />
                 <StyledNav>
                    <ul>
-                        <li><a href="#">Coffee</a></li>
-                        <li><a href="#">Tea</a></li>
-                        <li><a href="#">Equipment</a></li>
-                        <li><a href="#">Merchandise</a></li>
-                        <li><a href="#">Wholesale</a></li>
-                        <li><a href="#">Login</a></li>
+                        <li><a href="/styleguide">Styleguide</a></li>
+                        <li><a href="/product-landing">Product Landing</a></li>
+                        <li><a href="/product">Product Detail</a></li>
+                        <li><a href="/wholesale">Wholesale</a></li>
                         <li><a href="#">Cart</a></li>
                     </ul>
                 </StyledNav>

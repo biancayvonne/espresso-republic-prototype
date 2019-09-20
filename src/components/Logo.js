@@ -4,12 +4,19 @@ import ERLogo from '../assets/imgs/Logo.js';
 
 
 
-const StyledLogo = styled.div`
+const StyledLogo = styled.a`
     width: ${props => props.theme.s_unit};
     height: auto;
     max-width: 120px;
     float: left;
     margin: 1rem ${props => props.theme.med_margin} 0;
+    display: block;
+
+
+    &:hover:before {
+        visibility: hidden;
+        display: none;
+    }
 
 
     svg {
@@ -27,7 +34,7 @@ const StyledLogo = styled.div`
 
 function Logo() {
     return (
-            <StyledLogo>
+            <StyledLogo href="/" alt="Espresso Republic Home">
                 <ERLogo />
             </StyledLogo>
     );
